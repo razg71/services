@@ -1,0 +1,62 @@
+* {
+	margin: 0;
+	padding: 1;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background-color: #7f7f7f;
+}
+
+#wrap {
+	background-color: #7f7f7f;
+	min-height: 100%;
+	position: relative;
+	min-width: 680px;
+}
+
+/*Шапка*/
+#header {
+	
+	height: 100px;
+	background-color: #7f7f7f;
+	float: center;
+}
+
+/*Контент*/
+#content {
+	
+	overflow: hidden;
+	background-color: #c0c0c0;
+}
+
+/*Левая колонка*/
+#leftcol {
+	width: 20%;
+	float: left;
+	background-color: #c0c0c0;
+}
+
+#main {
+	
+	overflow: hidden;
+	background-color: #c0c0c0;
+	float: left;
+}
+
+/*Подвал*/
+#footer {
+	height: 0px;
+	background-color: #7f7f7f;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.content {
+	padding: 50px;
+}
